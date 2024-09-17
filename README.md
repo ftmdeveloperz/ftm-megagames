@@ -93,6 +93,29 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
    docker build -t ftm-megagames-bot .
    docker run -e TELEGRAM_API_TOKEN=your-telegram-bot-token ftm-megagames-bot
    ```
+### Bot Commands
+
+| Command      | Description                                              |
+|--------------|----------------------------------------------------------|
+| `/start`     | Starts the bot and provides a welcome message.            |
+| `/help`      | Provides help and instructions on how to use the bot.     |
+| `/ftmgame1`  | Play **Tic Tac Toe** directly within Telegram.            |
+| `/ftmgame2`  | Play **Tetris** directly within Telegram.                 |
+| `/ftmgame3`  | Play **Rock Paper Scissors** directly within Telegram.    |
+| `/ftmcast`   | Broadcasts a message to all users who have started the bot (Admin only). |
+| `/ftmmegagame` | Access the **MegaGames Web Blog** featuring over 100+ games. |
+
+---
+
+### How to Use the Commands:
+1. **Start the bot**: Type `/start` to initiate.
+2. **Get help**: If you're unsure of any functionality, type `/help`.
+3. **Play games**: Use the specific game commands to play:
+   - `/ftmgame1` for Tic Tac Toe.
+   - `/ftmgame2` for Tetris.
+   - `/ftmgame3` for Rock Paper Scissors.
+4. **Broadcast**: The `/ftmcast` command is restricted to admins and can be used to send a message to all users.
+5. **Access the MegaGames Web Blog**: Use `/ftmmegagame` to access the games blog directly from the bot.
 
 ## Contact Us
 
