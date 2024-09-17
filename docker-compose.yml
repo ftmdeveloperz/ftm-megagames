@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: ftm_megagames_bot
+    environment:
+      - TELEGRAM_API_TOKEN=your-telegram-bot-token
+    ports:
+      - "80:80"  # Adjust as necessary, or remove if not using ports
+    restart: always
