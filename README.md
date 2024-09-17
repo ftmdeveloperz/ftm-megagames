@@ -28,9 +28,9 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
 ```
 
 2. **Install Dependencies**:
-   bash
+   ```bash
    pip install -r requirements.txt
-   
+   ```
 
 3. **Configure Environment Variables**:
    - Create a `.env` file in the root directory with your Telegram bot token:
