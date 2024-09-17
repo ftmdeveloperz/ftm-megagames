@@ -14,7 +14,7 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
 
 ## Technology
 
-- **Python 3.11**: The bot is built using Python for robustness and performance.
+- __Python 3.11__: The bot is built using Python for robustness and performance.
 - **Telegram API**: Seamlessly integrated with Telegram for a smooth user experience.
 - **Docker**: Containerized for easy deployment and scaling.
 - **Railway**: Deployed on Railway for reliable and scalable hosting.
