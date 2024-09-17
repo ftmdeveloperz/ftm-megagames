@@ -8,10 +8,10 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
 
 ## Features
 
-- Tic Tac Toe: Play the classic game of Xs and Os against friends or the bot.
-- Tetris: Enjoy the beloved falling blocks game, optimized for Telegram interaction.
-- Rock Paper Scissors: Challenge the bot to a game of chance and strategy.
-
+- **Games**: Play Tic Tac Toe, Tetris, Rock Paper Scissors, and more!
+- **Subscription Management**: Check and manage your subscription plans.
+- **YouTube Downloader**: Download videos from YouTube.
+- **Additional Commands**: `/about`, `/id`, `/myplan`, `/plans`, and more.
 ## Technology
 
 - Python 3.11: The bot is built using Python for robustness and performance.
@@ -58,30 +58,37 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
 2. Create a new project and connect your GitHub repository.
 3. Configure environment variables in the Railway dashboard.
 4. Railway will automatically build and deploy your application.
+[![Deploy](https://img.shields.io/badge/Deploy%20to%20Railway-blue)](https://railway.app/template/https://github.com/ninzagamerz/ftm-megagames)
+
 
 ### Deploy to Koyeb
 1. Sign up or log in to [Koyeb](https://www.koyeb.com/).
 2. Create a new service and link your GitHub repository.
 3. Configure the deployment settings and environment variables.
 4. Koyeb will handle the build and deployment process.
+[![Deploy](https://img.shields.io/badge/Deploy%20to%20Koyeb-blue)](https://koyeb.com/deploy?repo=https://github.com/ninzagamerz/ftm-megagames)
 
 ### Deploy to Heroku
 1. Sign up or log in to [Heroku](https://www.heroku.com/).
 2. Create a new app and link your GitHub repository.
 3. Configure environment variables in the Heroku dashboard.
 4. Heroku will automatically build and deploy your application.
+[![Deploy](https://img.shields.io/badge/Deploy%20to%20Heroku-blue)](https://heroku.com/deploy?template=https://github.com/ninzagamerz/ftm-megagames)
+
 
 ### Deploy to Render
 1. Sign up or log in to [Render](https://render.com/).
 2. Create a new web service and connect your GitHub repository.
 3. Configure environment variables in the Render dashboard.
 4. Render will automatically build and deploy your application.
+[![Deploy](https://img.shields.io/badge/Deploy%20to%20Render-blue)](https://render.com/deploy?repo=https://github.com/ninzagamerz/ftm-megagames)
 
 ### Deploy to Netlify
 1. Sign up or log in to [Netlify](https://www.netlify.com/).
 2. Create a new site from Git and link your repository.
 3. Configure build settings and environment variables.
 4. Netlify will build and deploy your site automatically.
+[![Deploy](https://img.shields.io/badge/Deploy%20to%20Netlify-blue)](https://app.netlify.com/start/deploy?repository=https://github.com/ninzagamerz/ftm-megagames)
 
 ### Deploy to VPS
 1. **Prepare the VPS**:
@@ -105,6 +112,15 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
 | `/ftmcast`   | Broadcasts a message to all users who have started the bot (Admin only). |
 | `/ftmmegagame` | Access the **MegaGames Web Blog** featuring over 100+ games. |
 
+## Some Additional Commands 
+- `/add_premium <user_id> <plan>` - Add a user to a premium plan (Admin only).
+- `/remove_premium <user_id>` - Remove a user from premium status (Admin only).
+- `/premium_status` - Check your premium status.
+- `/myplan` - Check your current plan.
+- `/plans` - Display available plans.
+- `/about` - Get information about the bot.
+- `/id` - Get your Telegram ID.
+- `/youtube <url>` - Download a YouTube video from the provided URL.
 ---
 
 ### How to Use the Commands:
