@@ -22,10 +22,10 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
 ## Setup
 
 1. Clone the Repository:
-   ```bash
+   bash
    git clone https://github.com/yourusername/ftm-megagames-bot.git
    cd ftm-megagames-bot
-   ```
+   
 
 2. **Install Dependencies**:
    ```bash
