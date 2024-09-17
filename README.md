@@ -25,7 +25,7 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
    ```bash
    git clone https://github.com/ninzagamerz/ftm-megagames
    cd ftm-megagames-bot
-```
+   ```
 
 2. **Install Dependencies**:
    ```bash
