@@ -21,11 +21,11 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
 
 ## Setup
 
-1. Clone the Repository:
-   bash
+1. **Clone the Repository**:
+   ```bash
    git clone https://github.com/ninzagamerz/ftm-megagames
    cd ftm-megagames-bot
-   
+```
 
 2. **Install Dependencies**:
    bash
@@ -34,9 +34,9 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
 
 3. **Configure Environment Variables**:
    - Create a `.env` file in the root directory with your Telegram bot token:
-     ```plaintext
+     plaintext
      TELEGRAM_API_TOKEN=your-telegram-bot-token
-     ```
+     
 
 4. **Run the Bot**:
    ```bash
