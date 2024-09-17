@@ -8,20 +8,20 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
 
 ## Features
 
-- **Tic Tac Toe**: Play the classic game of Xs and Os against friends or the bot.
-- **Tetris**: Enjoy the beloved falling blocks game, optimized for Telegram interaction.
-- **Rock Paper Scissors**: Challenge the bot to a game of chance and strategy.
+- Tic Tac Toe: Play the classic game of Xs and Os against friends or the bot.
+- Tetris: Enjoy the beloved falling blocks game, optimized for Telegram interaction.
+- Rock Paper Scissors: Challenge the bot to a game of chance and strategy.
 
 ## Technology
 
-- __Python 3.11__: The bot is built using Python for robustness and performance.
-- **Telegram API**: Seamlessly integrated with Telegram for a smooth user experience.
-- **Docker**: Containerized for easy deployment and scaling.
-- **Railway**: Deployed on Railway for reliable and scalable hosting.
+- Python 3.11: The bot is built using Python for robustness and performance.
+- Telegram API: Seamlessly integrated with Telegram for a smooth user experience.
+- Docker: Containerized for easy deployment and scaling.
+- Railway: Deployed on Railway for reliable and scalable hosting.
 
 ## Setup
 
-1. **Clone the Repository**:
+1. Clone the Repository:
    ```bash
    git clone https://github.com/yourusername/ftm-megagames-bot.git
    cd ftm-megagames-bot
