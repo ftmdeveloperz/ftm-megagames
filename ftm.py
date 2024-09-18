@@ -14,7 +14,5 @@ PLANS = {
     'premium': 'Premium Plan: Full access to all features. $10 per month.'
 }
 
-# Premium users
-premium_users = {
-    123456789: 'premium',  # Example user ID and plan
-}
+# Add PREMIUM_USERS
+PREMIUM_USERS = {}  # Dictionary to hold premium users
