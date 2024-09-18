@@ -1,6 +1,6 @@
 from telegram import Update, Bot
 from telegram.ext import Application, CommandHandler, CallbackContext
-from ftm import TOKEN, OWNER_ID, ADMIN_IDS, LOG_CHANNEL, premium_users, PLANS
+from ftm import TOKEN, OWNER_ID, ADMINS, LOG_CHANNEL, premium_users, PLANS
 import logging
 import os
 from commands import my_plan, available_plans, about, get_id, youtube
