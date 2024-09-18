@@ -1,4 +1,4 @@
-from telegram.ext import Application
+from telegram.ext import Application, CommandHandler, MessageHandler, filters
 from ftm import TOKEN
 from admin import add_admin, remove_admin
 from premium import check_premium, add_premium, remove_premium
