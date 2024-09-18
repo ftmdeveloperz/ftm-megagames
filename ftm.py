@@ -1,7 +1,7 @@
 # ftm.py
 
 # Environment variables
-TOKEN = 'telegram_bot_token'
+TOKEN = '7018355504:AAHtX_4FLpNCZmOZuuQL7GoFLICwnq1Q9vY'
 OWNER_ID = 123456789  # Replace with your Telegram ID
 ADMINS = {987654321}  # Replace with Telegram IDs of your admins
 LOG_CHANNEL = -1001234567890  # Replace with your log channel ID
