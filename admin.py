@@ -15,7 +15,7 @@ async def add_admin(update: Update, context: CallbackContext):
     if is_owner(update):
         try:
             admin_id = int(context.args[0])
-            ADMIN_IDS.append(admin_id)
+            ADMINS.append(admin_id)
             await update.message.reply_text(f"Admin added successfully: {admin_id}")
         except Exception:
             await update.message.reply_text("Failed to add admin. Provide a valid Telegram ID.")
@@ -27,7 +27,7 @@ async def remove_admin(update: Update, context: CallbackContext):
     if is_owner(update):
         try:
             admin_id = int(context.args[0])
-            ADMIN_IDS.remove(admin_id)
+            ADMINS.remove(admin_id)
             await update.message.reply_text(f"Admin removed successfully: {admin_id}")
         except Exception:
             await update.message.reply_text("Failed to remove admin. Provide a valid Telegram ID.")
