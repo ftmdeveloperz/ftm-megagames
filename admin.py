@@ -1,6 +1,6 @@
 from telegram import Update
 from telegram.ext import CallbackContext
-from ftm import OWNER_ID, ADMIN_IDS
+from ftm import OWNER_ID, ADMINS
 
 # Function to verify if the user is the owner
 def is_owner(update: Update):
@@ -8,7 +8,7 @@ def is_owner(update: Update):
 
 # Function to check if the user is an admin
 def is_admin(update: Update):
-    return update.effective_user.id in ADMIN_IDS or is_owner(update)
+    return update.effective_user.id in ADMINS or is_owner(update)
 
 # Command to add an admin (Owner only)
 async def add_admin(update: Update, context: CallbackContext):
