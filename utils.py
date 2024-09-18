@@ -6,4 +6,4 @@ from ftm import LOG_CHANNEL, bot
 async def log_user_activity(update: Update, context: CallbackContext):
     user = update.effective_user
     message = f"User {user.username} ({user.id}) accessed the bot."
-    await bot.send_message(chat_id=LOG_CHANNEL_ID, text=message)
+    await bot.send_message(chat_id=LOG_CHANNEL, text=message)
