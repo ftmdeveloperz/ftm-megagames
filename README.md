@@ -123,6 +123,51 @@ Welcome to the **FTM MegaGames Telegram Bot**, a high-tech and advanced solution
 - `/youtube <url>` - Download a YouTube video from the provided URL.
 ---
 
+## Environment Variables
+
+The bot uses the following environment variables to function properly. These variables can be set in a `.env` file or directly in your server environment.
+
+### Required Variables:
+1. **TOKEN**:  
+   Your Telegram bot token. You can get this from the BotFather on Telegram.  
+   Example:  
+   ```
+   TOKEN=123456:ABCDEF
+   ```
+
+2. **OWNER_ID**:  
+   The Telegram ID of the bot's owner. This is the person with full control of the bot.  
+   Example:  
+   ```
+   OWNER_ID=123456789
+   ```
+
+3. **LOG_CHANNEL**:  
+   The ID of the Telegram channel where logs will be sent. This is useful for tracking bot events and errors.  
+   Example:  
+   ```
+   LOG_CHANNEL=-1001234567890
+   ```
+
+### Optional Variables:
+1. **ADMINS**:  
+   A list of Telegram IDs for additional bot administrators who can use admin-level commands.  
+   Example:  
+   ```
+   ADMINS=[987654321, 123456789]
+   ```
+
+2. **premium_users**:  
+   A dictionary for premium users. This will automatically be populated when users subscribe to premium plans.
+
+### Subscription Plans (Defined in Code):
+The following plans are available for users:
+- **Free Plan**: Basic access to the bot features.
+- **Basic Plan**: Additional features and priority support.
+- **Premium Plan**: Full access to all bot features and exclusive content.
+
+For any inquiries, join us on [Telegram Support](https://t.me/ftmbotzsupport) or email at funtoonsmultimedia@gmail.com.
+
 ### How to Use the Commands:
 1. **Start the bot**: Type `/start` to initiate.
 2. **Get help**: If you're unsure of any functionality, type `/help`.
